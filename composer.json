@@ -1,0 +1,26 @@
+{
+    "name": "arpanext/laravel-files-api",
+    "authors": [
+        {
+            "name": "Arpanext",
+            "email": "contact@arpanext.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "laravel/framework": "^6.0|^7.3.4|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arpanext\\Files\\Api\\": "/src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arpanext\\Files\\Api\\App\\Providers\\AppServiceProvider"
+            ]
+        }
+    }
+}
